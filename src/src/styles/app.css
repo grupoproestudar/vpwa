@@ -1,0 +1,52 @@
+.navbar-custom .navbar-toggler-icon {
+	background-color: #0f063f;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#e5ca2c' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item {
+	text-align: left;
+}
+
+a {
+	color: #e5ca2c !important;
+}
+
+body {
+	height: 100%;
+	position: relative !important;
+	overflow-y: scroll;
+}
+
+select {
+	text-align-last: center;
+	text-align: center;
+}
+
+::placeholder {
+	font-size: 1.5em;
+}
+
+.tot {
+	background-color: #0f063f !important;
+	color: #e5ca2c !important;
+	text-align: center;
+	border-color: #e5ca2c !important;
+}
+
+.modal-content {
+	background-color: #0f063f !important;
+	color: #e5ca2c !important;
+	text-align: center;
+	border-color: #e5ca2c !important;
+	border: 1px solid  #e5ca2c !important;
+}
+
+#app {
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.min-h {
+	min-height: 100vh;
+}
